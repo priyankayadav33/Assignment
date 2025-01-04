@@ -1,0 +1,9 @@
+import { Button, TextField, Card } from '@mui/material';
+
+const TaskList = () => (
+  <Card>
+    <h3>Task List</h3>
+    {/* Display tasks */}
+    <Button variant="contained">Add Task</Button>
+  </Card>
+);
