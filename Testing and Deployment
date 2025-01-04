@@ -1,0 +1,18 @@
+Project Structure
+Framework: Use React.js or Next.js.
+Design System: Implement Material-UI or TailwindCSS for styling.
+State Management: Use Redux Toolkit or Context API for managing the application's state.
+API Integration: Utilize jsonplaceholder.typicode.com/todos for fetching and updating task data.
+ Implement Pages
+Home Page:
+Display a list of tasks with their title, description, and status.
+Fetch tasks from the API and store them in the Redux state.
+Add Task Page:
+A form for entering the title, description, and status of a new task.
+Dispatch an action to add the task to the Redux store.
+Edit Task Page:
+A form pre-filled with the task's details.
+Update the task's status via the API and update the Redux store.
+ Add API Integration
+Use axios for REST API calls.
+Fetch tasks on the Home Page, add tasks on the Add Task Page, and update tasks on the Edit Task Page.
