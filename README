@@ -1,0 +1,14 @@
+src/
+├── components/
+│   ├── TaskList.js
+│   ├── AddTaskForm.js
+│   ├── EditTaskForm.js
+├── pages/
+│   ├── HomePage.js
+│   ├── AddTaskPage.js
+│   ├── EditTaskPage.js
+├── redux/
+│   ├── store.js
+│   ├── taskSlice.js
+├── App.js
+├── index.js
